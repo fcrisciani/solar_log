@@ -1,0 +1,22 @@
+{
+  "name": "solar_panels-node",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Flavio Crisciani <f.crisciani@gmail.com>",
+  "contributors": [{
+    "name": "Flavio Crisciani",
+    "email": "f.crisciani@gmail.com"
+  }],
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "debug": "*",
+    "elasticsearch": "*",
+    "imap-simple": "*"
+  },
+  "private": true,
+  "analyze": true,
+  "license": "Apache 2.0"
+}

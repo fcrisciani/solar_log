@@ -1,0 +1,33 @@
+{
+  "template": "solar_panels-*",
+  "mappings": {
+    "production": {
+      "properties": {
+        "body": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "date": {
+          "type": "date"
+        },
+        "kWh": {
+          "type": "double"
+        },
+        "subject": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        }
+      }
+    }
+  }
+}
